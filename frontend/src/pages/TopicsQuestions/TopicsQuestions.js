@@ -31,6 +31,7 @@ import Stack from "@mui/material/Stack";
 import CancelIcon from "@mui/icons-material/Cancel";
 import CheckIcon from "@mui/icons-material/Check";
 import Modal from "@mui/material/Modal";
+import Navbhar from "../../components/Navbhar/Navbhar";
 
 const feedbackModalStyle = {
   position: "absolute",
@@ -1136,6 +1137,7 @@ const TopicsQuestions = () => {
   return (
     <>
       <div>
+      <Navbhar/>
         <LoadingScreen
           loading={clearLoading}
           bgColor="linear-gradient(to right, #ffc3a0, #ffafbd);"

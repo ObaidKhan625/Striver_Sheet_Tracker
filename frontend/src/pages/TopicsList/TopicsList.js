@@ -25,6 +25,8 @@ import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import CheckIcon from "@mui/icons-material/Check";
 import CancelIcon from "@mui/icons-material/Cancel";
+import Navbhar from "../../components/Navbhar/Navbhar";
+
 
 const feedbackModalStyle = {
   position: "absolute",
@@ -195,6 +197,7 @@ const TopicsList = () => {
       <div style={{ paddingBottom: "5vh" }} className="topicListPage">
         <div data-aos="fade-up">
           <div>
+           <Navbhar/>
             <Font family="Lobster">
               <h1
                 style={{
